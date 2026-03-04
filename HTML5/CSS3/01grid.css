@@ -1,0 +1,16 @@
+.grid{
+    display: grid;
+    /*grid-template-columns: 100px 200px 100px;*/
+    /*grid-template-rows: 200px 300px;*/
+
+    /*grid-template-columns: 1fr 2fr 1fr;*/
+    /*grid-template-rows: 1fr 2fr;*/
+
+    /*grid-template-columns: minmax(400px, 1fr) 1fr;*/
+    /*grid-template-rows: minmax(200px, 300px);*/
+
+    /*grid-template-columns: repeat(6, 1fr);*/
+
+    grid-template-columns: 300px repeat(3, 1fr);
+    gap: 20px;
+}

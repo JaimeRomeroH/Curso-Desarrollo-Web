@@ -1,0 +1,23 @@
+#contenedor p{
+    color: yellow;
+}
+
+#contenedor p:first-child{
+    color: blue;
+}
+
+#contenedor p:nth-child(3){
+    color: red; 
+}
+
+#contenedor p:nth-child(odd){
+    color: red; 
+}
+
+#contenedor p:nth-child(even){
+    color: blue; 
+}
+
+#contenedor p:last-child{
+    color: brown;
+}

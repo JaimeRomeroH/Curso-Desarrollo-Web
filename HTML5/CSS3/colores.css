@@ -1,0 +1,26 @@
+div{
+    width: 200px;
+    height: 200px;
+
+    /*Palabra clave*/
+    background-color: red;
+
+    /*Hexadecimal*/
+    background-color: #41e40fc5;
+
+    /*RGB*/
+    background-color: rgb(255, 81, 0);
+
+    /*HSL*/
+    background-color: hsl(250deg, 30%, 50%);
+
+    /*Transarancia*/
+    background-color: transparent;
+    background-color: #41e40f40;
+    background-color: rgba(255, 81, 0, 0.3);
+    background-color: hsla(250deg, 30%, 50%, 30%);
+
+    /*Degradado*/
+    background: linear-gradient(120deg, red, blue);
+    background: radial-gradient(blue, green, red, orange);
+}

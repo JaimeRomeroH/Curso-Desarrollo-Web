@@ -1,0 +1,32 @@
+div{
+    width: 200px;
+    height: 200px;
+    margin: 70px;
+    float: left;
+}
+
+.elemento1{
+    background: #1aa9ed;
+}
+
+.elemento1:hover{
+    transform: rotate(130deg);
+    background: blue;
+}
+
+.elemento-transicion{
+    background: #00dd73;
+    /*transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 1s;
+    transition-timing-function: ease-in-out;*/
+
+    /*Forma simplificada*/
+    /*transition: propiedad  duracion  timing  delay*/
+    transition: all 1s ease-out 0.3s
+}
+
+.elemento-transicion:hover{
+    background: green;
+    transform: rotate(130deg);
+}

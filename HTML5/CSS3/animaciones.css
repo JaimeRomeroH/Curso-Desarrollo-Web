@@ -1,0 +1,51 @@
+/*PASO 1 KEY FRAME*/
+@keyframes cambiarColor {
+    0%{
+        background: green;
+    }
+
+    20%{
+        background: blue;
+    }
+
+    40%{
+        background: orange;
+    }
+
+    60%{
+        background: yellow;
+    }
+
+    80%{
+        background: purple;
+    }
+
+    100%{
+        background: red;
+    }
+}
+
+/*PASO 2 APLICAR PROPIEDADES DE ANIMACION*/
+
+.ani{
+    width: 400px;
+    height: 400px;
+    background: gray;
+    margin: auto;
+    margin-top: 50px;
+    animation-name: cambiarColor;
+    animation-duration: 10s;
+    animation-delay: 0.5;
+    animation-iteration-count: 2;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+
+    /*Forma simplificada*/
+    /*animation: name  duration  delay  iteration  direction  fill-mode  play-state*/
+    animation: cambiarColor 10s 0.5 2 normal forwards paused;
+}
+
+.ani:hover{
+    animation-play-state: running;
+}

@@ -1,0 +1,27 @@
+/* Fonts Basicas */
+
+h1{
+    font-family: 'Times New Roman', Times, serif
+}
+
+/* Fonts Externas */
+
+p{
+    font-family: "Comic Neue", cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Oswald:wght@200..700&family=Roboto+Condensed:wght@300&display=swap');
+p.import{
+    font-family: "Oswald", sans-serif;
+}
+
+/* Fonts Descargadas */
+
+@font-face {
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+    src: url(../fonts/EduAUVICWANTPre-VariableFont_wght.ttf);
+}
+
+p.descargada{
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}

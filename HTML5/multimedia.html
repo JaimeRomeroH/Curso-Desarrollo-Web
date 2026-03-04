@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia HTML</title>
+</head>
+<body>
+    <!--Imagen-->
+    <img src="./imagenes/adtr-bobby.jpg" alt="imagen adr" width="400px" height="400px">
+
+    <!--Imagenes combinadas-->
+    <figure>
+        <img src="./imagenes/adtr-bobby.jpg" alt="" width="300" height="300">
+        <img src="./imagenes/super-meat-boy.jpg" alt="" width="300" height="300">
+        <img src="./imagenes/imagen enviar.png" alt="" width="300" height="300">
+        <figcaption>Desarrollo web desde cero</figcaption>
+    </figure>
+
+    <!--Video-->
+    <video src="" controls autoplay loop poster="./imagenes/adtr-bobby.jpg"></video>
+
+    <!--Subtitulos en Video-->
+    <video controls>
+         <source src=".mp4">
+         <source src=".avi">
+         <track src="subs-es.vtt" srclang="es" label="Español" default>
+         <track src="subs-en.vtt" srclang="en" label="English" default>
+         <track src="subs-fr.vtt" srclang="fr" label="Français" default>
+    </video>
+
+    <!--Videos de Youtube-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/weHWECE7eZg?si=aaEDbOhtZD0xuZ4P" title="YouTube video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <!--Audio-->
+    <audio src="" controls loop autoplay></audio>
+</body>
+</html>

@@ -1,0 +1,14 @@
+.grid{
+    display: grid;
+    gap: 20px;
+    height: 800px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+
+     /*Alineacion horizontal*/
+     justify-content: space-around;
+
+     /*Alineacion vertical*/
+     align-content: space-evenly;
+     
+}

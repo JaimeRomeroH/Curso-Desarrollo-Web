@@ -1,0 +1,23 @@
+h1{
+    color: violet;
+}
+
+#primerparrafo{
+    color: green;
+}
+
+.grupoparrafos{
+    color: blue;
+}
+
+h1:hover{
+    color: black;
+}
+
+input[type="text"]{
+    background: blue;
+}
+
+/*{
+    color: red !important;
+}*/
