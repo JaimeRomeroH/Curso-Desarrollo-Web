@@ -5,7 +5,7 @@
 
 form{
     width: 30%;
-    height: 400px;
+    height: 500px;
     background: #333;
     margin: auto;
     margin-top: 50px;
@@ -21,13 +21,27 @@ form{
     flex-direction: column;
 }
 
+.fields.radiobutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.fields.term{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
 .two-columns{
     display: flex;
     justify-content: space-between;
 }
 
 label{
-    margin-bottom: 10px;
+    /*margin-bottom: 10px;*/
     text-transform: uppercase;
     font-weight: 700;
     color: #dedede;
